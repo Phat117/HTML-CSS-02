@@ -722,3 +722,96 @@ a {
     cursor: default;
     background: #ffb900;
 }
+
+/*========== Footer ============*/
+.footer {
+    padding: 96px 135px 0;
+    background: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+
+.footer .socials {
+    display: flex;
+    margin-top: 18px;
+    gap: 18px;
+}
+
+.footer .column .heading {
+    margin-bottom: 43px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.footer .row .column .heading::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    bottom: -14px;
+    left: 0;
+    right: -48px;
+    flex-shrink: 0;
+    background: #59554b;
+}
+
+.footer .list a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+
+.footer .list li a:hover {
+    text-decoration: underline;
+}
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list strong {
+    color: #fff;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 185.714%;
+}
+
+.footer .copyright {
+    color: #807d74;
+    padding: 28px 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
