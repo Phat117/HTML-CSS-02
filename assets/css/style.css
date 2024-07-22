@@ -392,26 +392,26 @@ a {
     word-break: break-all;
 }
 
-.popular .course-item .footer {
+.popular .course-item .footer1 {
     margin-top: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.popular .course-item .footer .price {
+.popular .course-item .footer1 .price {
     color: #171100;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 600;
     line-height: 166.667%;
 }
-.popular .course-item .footer .btn {
+.popular .course-item .footer1 .btn {
     border-radius: 25px;
     border: none;
 }
 
-.popular .course-item .footer .btn:hover {
+.popular .course-item .footer1 .btn:hover {
     cursor: pointer;
     background: #ffb900;
 }
